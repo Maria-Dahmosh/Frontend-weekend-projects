@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "GothamSSm-Light";
+  src: url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.eot");
+  src: url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/e31cb567aed0e12aaf0a5d265b24d49b.svg#GothamSSm-Light")
+      format("svg");
+}

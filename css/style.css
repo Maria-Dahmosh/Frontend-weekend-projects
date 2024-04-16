@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: rgb(238, 238, 238);
+  line-height: 30px;
+}
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+ul {
+  list-style: none;
+}
+a {
+  color: rgb(238, 238, 238);
+}
+header {
+  background-image: linear-gradient(to right, #6c94ffeb, #000000eb);
+  padding: 16px 24px;
+  position: relative;
+  text-align: center;
+}
+ul li {
+  margin-right: 10px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/*fonts*/
+.font14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.font12 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.font17 {
+  font-size: 17px;
+  font-weight: 500;
+}
+.font24 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.navbar-end a i {
+  border: 1px white solid;
+  text-align: center;
+  width: 20px;
+  border-radius: 50%;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.navbar-end a i.no-circle {
+  border: none;
+  width: 25px;
+  height: 25px;
+}
+.navbar a,
+.btns a {
+  text-decoration: none;
+}
+.logo {
+  height: 50px;
+  width: 140px;
+  object-fit: cover;
+}
+.navbar {
+  margin: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+video {
+  z-index: -1;
+  width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section1 div {
+  text-align: center;
+  margin-right: 30px;
+  padding: 10px;
+}
+.footer-section1 {
+  display: flex;
+  margin-top: 300px;
+}
+
+.feature h1 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.feature p {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.content h3,
+.content h1,
+.content h2 {
+  margin-top: 10px;
+}
+.content {
+  text-align: center;
+}
+.btns a {
+  padding: 5px 60px;
+  margin-right: 30px;
+  text-align: center;
+}
+.btn-right {
+  color: rgb(238, 238, 238);
+  background-color: transparent;
+  border: 4px rgb(238, 238, 238) solid;
+  border-radius: 5px;
+}
+.btn-left {
+  color: black;
+  background-color: rgb(238, 238, 238);
+  border: 4px rgb(238, 238, 238) solid;
+  border-radius: 5px;
+}
+.btn-right:hover {
+  color: black;
+  background-color: rgb(238, 238, 238);
+  border: 4px rgb(238, 238, 238) solid;
+  border-radius: 5px;
+}
+.btn-left:hover {
+  color: black;
+  background-color: rgb(220, 216, 216);
+  border: 4px rgb(220, 216, 216) solid;
+  border-radius: 5px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+}
+.section1-content {
+  position: absolute;
+  width: 100%;
+}
+.center-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.footer-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.section2 {
+  background: url(../img/tesla2.png);
+  background-size: cover;
+  background-position: center; /* Center the background image */
+  min-width: 100%;
+  height: 130%;
+}
+
+.section1 {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  align-items: center;
+  max-height: 100%;
+}
+nav {
+  margin-top: 10px;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.threeitms {
+  align-items: baseline;
+}
+.image {
+  background-image: url(../img/tesla2.png);
+  background-size: cover;
+  background-position: center; /* Center the background image */
+
+  min-width: 100%;
+  height: 130%;
+  text-align: center;
+  padding-top: 60px;
+}
